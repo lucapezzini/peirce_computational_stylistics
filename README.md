@@ -1,7 +1,7 @@
 # Peirce computational stylistics
 Some code for an on-going analysis of CS Peirce's works by computational stylistics, performed by Luca Pezzini and Bea Somà. 
 
-## The good, the effective and the ugly
+## 1. The good, the effective and the ugly
 This part of the analysis focuses on the strangeness of Peircean terminology and on the repetition of technical terms. [Here]() is the full paper. Cite as:
 
 ```
