@@ -5,7 +5,7 @@ Some code for an on-going analysis of CS Peirce's works by computational stylist
 This part of the analysis focuses on the strangeness of Peircean terminology and on the repetition of technical terms. [Here]() is the full paper. Cite as:
 
 ```
-@article{pezzini_soma_peirce_computational_stylistics,
+@article{pezzini_soma_2025_peirce,
 author = {Pezzini, Luca and Somà, Beatrice},
 title = {The good, the effective and the ugly. Computational insights into the philosophical style of C.S. Peirce},
 year = {2025},
