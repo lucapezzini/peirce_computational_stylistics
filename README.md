@@ -17,6 +17,9 @@ We extracted a [sample of ~1000 technical terms by CS Peirce](https://github.com
 
 Of these terms we computer two measures: the strangeness, measured as the surprisal of a character-level LSTM, and the predicted repetitiveness, measured by means of a Word2vec SGNS.
 
+### Strangeness
 The LSTM was trained on a lexicon of standard historical English, namely the unigrams of the [COHA – Corpus of Historical American English](https://www.english-corpora.org/coha/), restricted to the period 1810-1910. 
 
+### Predicted repetitiveness
+The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec. 
 
