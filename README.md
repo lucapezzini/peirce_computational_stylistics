@@ -24,9 +24,9 @@ Surprisal of standard English words is a function of their length *n*, as follow
 
 <img width="827" height="520" alt="image" src="https://github.com/user-attachments/assets/44b43094-5c1d-472a-9a55-88897661d47d" />
 
-This relation can be used to correct mean surprisal for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result is as follows:
+This relation can be used to correct mean surprisal for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result is as follows (click for interactive version):
 
-
+<img width="2944" height="2019" alt="fig_3_2" src="https://github.com/user-attachments/assets/730babb4-a3ee-44b8-a185-9fc0586874ae" />
 
 ### Predicted repetitiveness
 The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec. 
