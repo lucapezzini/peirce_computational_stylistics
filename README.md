@@ -20,6 +20,14 @@ For each one of these terms we computed two measures: the strangeness, measured 
 ### Strangeness
 The LSTM was trained on a lexicon of standard historical English, namely the unigrams of the [COHA – Corpus of Historical American English](https://www.english-corpora.org/coha/), restricted to the period 1810-1910. 
 
+Surprisal of standard English words is a function of their length *n*, as follows:
+
+<img width="827" height="520" alt="image" src="https://github.com/user-attachments/assets/44b43094-5c1d-472a-9a55-88897661d47d" />
+
+This relation can be used to correct mean surprisal for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result is as follows:
+
+
+
 ### Predicted repetitiveness
 The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec. 
 
