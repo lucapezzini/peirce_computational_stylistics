@@ -14,7 +14,7 @@ journal = {Paradigmi, Rivista di critica filosofica},
 number = {1/2026},
 pages = {87-102},
 doi = {10.30460/120540},
-addendum = {accepted for publication}
+url = {https://www.rivisteweb.it/doi/10.30460/120540},
 }
 ```
 
