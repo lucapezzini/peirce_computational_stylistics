@@ -2,7 +2,7 @@
 Some code for an on-going analysis of CS Peirce's works by computational stylistics, performed by Luca Pezzini and Bea Somà. 
 
 ## The good, the effective and the ugly
-This part of the analysis focuses on the strangeness of Peircean terminology and on the repetition of technical terms. [Here]() is the full paper. 
+This part of the analysis focuses on the strangeness of Peircean terminology and on the repetition of technical terms. [Here](https://www.rivisteweb.it/doi/10.30460/120540) is the full paper. 
 
 Cite as:
 ```
@@ -10,6 +10,10 @@ Cite as:
 author = {Pezzini, Luca and Somà, Beatrice},
 title = {The good, the effective and the ugly. Computational insights into the philosophical style of C.S. Peirce},
 year = {2026},
+journal = {Paradigmi, Rivista di critica filosofica},
+number = {1/2026},
+pages = {87-102},
+doi = {10.30460/120540},
 addendum = {accepted for publication}
 }
 ```
@@ -29,10 +33,10 @@ The LSTM provides character-level surprisal. To get word-level surprisal, words 
 
 <img width="827" height="520" alt="image" src="https://github.com/user-attachments/assets/44b43094-5c1d-472a-9a55-88897661d47d" />
 
-This interpolant can be used to correct mean surprisal computed with our LSTM for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result for Peirce's technical terms is as follows; [click here]() for an interactive version.
+This interpolant can be used to correct mean surprisal computed with our LSTM for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result for Peirce's technical terms is as follows:
 
 <img width="827" height="567" alt="fig_3_2" src="https://github.com/user-attachments/assets/730babb4-a3ee-44b8-a185-9fc0586874ae" />
 
 ### Predicted repetitiveness
-The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec. See the [paper]() for details.
+The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec.
 
