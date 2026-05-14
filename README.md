@@ -2,7 +2,7 @@
 Some code for an on-going analysis of CS Peirce's works by computational stylistics, performed by Luca Pezzini and Bea Somà. 
 
 ## The good, the effective and the ugly
-This part of the analysis focuses on the strangeness of Peircean terminology and on the repetition of technical terms. [Here](https://www.rivisteweb.it/doi/10.30460/120540) is the full paper. A preprint will soon be available.
+This part of the analysis focuses on quantifying (a) the strangeness of Peircean terminology and (b) the repetition pattern of technical terms. [Here](https://www.rivisteweb.it/doi/10.30460/120540) is the full paper. A preprint will soon be available.
 
 Cite as:
 ```
@@ -38,5 +38,8 @@ This interpolant can be used to correct mean surprisal computed with our LSTM fo
 [<img width="827" height="567" alt="fig_3_2" src="https://github.com/user-attachments/assets/730babb4-a3ee-44b8-a185-9fc0586874ae" />](https://lucapezzini.github.io/peirce_computational_stylistics/peirce_terms_strangeness_interactive.html)
 
 ### Predicted repetitiveness
-The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec.
+We trained a Skip-Gram NS model on the Collected Papers: the chosen measure for the repetitiveness of a term was, then, the sigmoid of the dot product between its target embedding and its context embedding (namely, the “positive” part of the loss used by SGNS, see Mikolov et al., 2013a; 2013b). This measure quantifies how much expected the occurrence of a certain term is in the window around the same term. Below is the plot of the results, ranked by repetitiveness value, for a window of 10 words per side. 
+
+<img width="827" height="520" alt="image" src="https://github.com/user-attachments/assets/a09984d0-bb9a-41ba-bbc2-61a9881e32ff" />
+
 
