@@ -33,9 +33,9 @@ The LSTM provides character-level surprisal. To get word-level surprisal, words 
 
 <img width="827" height="520" alt="image" src="https://github.com/user-attachments/assets/44b43094-5c1d-472a-9a55-88897661d47d" />
 
-This interpolant can be used to correct mean surprisal computed with our LSTM for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result for Peirce's technical terms is as follows:
+This interpolant can be used to correct mean surprisal computed with our LSTM for any *n*-gram. This way we can turn character-level surprisal to word-level surprisal. The result for Peirce's technical terms is as follows (click the picture for an interactive visualization):
 
-<img width="827" height="567" alt="fig_3_2" src="https://github.com/user-attachments/assets/730babb4-a3ee-44b8-a185-9fc0586874ae" />
+[<img width="827" height="567" alt="fig_3_2" src="https://github.com/user-attachments/assets/730babb4-a3ee-44b8-a185-9fc0586874ae" />](https://lucapezzini.github.io/peirce_computational_stylistics/peirce_terms_strangeness_interactive.html)
 
 ### Predicted repetitiveness
 The chosen measure was the simoid of the dot product between the target embedding and the context embedding in a Skip-Gram Word2vec.
